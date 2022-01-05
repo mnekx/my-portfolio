@@ -63,7 +63,7 @@ div.divider {
 
 /* Headline section */
 header.headline {
-  flex-grow: 10; 
+  flex-grow: 10;
   min-height: 100%;
   display: flex;
   flex-direction: column;
