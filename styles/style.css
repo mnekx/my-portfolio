@@ -19,7 +19,8 @@ a {
 
 nav,
 header {
-  margin: 0px 142px 0px 142px;
+  margin-left: 142px;
+  margin-right: 142px;
 }
 
 li > a {
