@@ -33,6 +33,15 @@ nav {
 /* The navigation menu */
 nav .logo {
   flex: 4 1 75%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.logo h4 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 16px;
 }
 
 nav ul.nav-links {
@@ -81,7 +90,7 @@ header.headline {
 
 .headline h2 {
   font-weight: 700;
-  font-size: 30px;
+  font-size: 48px;
   line-height: 65px;
   letter-spacing: 0.37px;
   color: #7d73fc;
@@ -89,7 +98,7 @@ header.headline {
 
 .headline h4 {
   font-weight: 500;
-  font-size: 22px;
+  font-size: 32px;
 
   /* line-height: 44px; */
   color: #edecff;
@@ -124,7 +133,7 @@ section.list-section h5 {
 }
 
 section.list-section li {
-  font-weight: 400;
+  font-weight: normal;
   font-size: 15px;
   line-height: 39px;
   color: #f5f5ff;
