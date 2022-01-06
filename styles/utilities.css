@@ -1,0 +1,14 @@
+.container {
+  max-width: 350px;
+  margin: 0 auto;
+}
+
+.nav-links {
+  width: 100%;
+}
+
+.seperator {
+  border: 1px solid #646369;
+  margin: 10px 5px;
+  min-width: 100%;
+}
