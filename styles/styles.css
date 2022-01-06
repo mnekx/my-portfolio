@@ -1,12 +1,14 @@
 * {
   box-sizing: border-box;
   margin: 0;
+  padding: 0;
 }
 
 body {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: 'Roboto', sans-serif;
   background: #191765;
   color: #fff;
+  position: relative;
 }
 
 ul {
@@ -15,100 +17,132 @@ ul {
 
 a {
   text-decoration: none;
+  color: #fff;
 }
 
-nav,
-header {
-  margin: 0 142px 0 142px;
-}
+nav {
+  /* margin: 0 142px 0 142px; */
 
-li > a {
-  display: inline-block;
   width: 100%;
-  padding: 10px;
-  color: white;
+  display: flex;
+  flex-wrap: wrap;
 }
 
-/* Wrapper */
-.wrapper {
-  min-height: 100vh;
-  display: flex;
+/* This is the mobile version */
+
+/* The navigation menu */
+nav .logo {
+  flex: 4 1 75%;
+}
+
+nav ul.nav-links {
+  width: 100%;
+  display: none;
   flex-direction: column;
+  padding: 0;
+  align-items: center;
 }
 
-/* nav bar */
-nav.flex-nav {
+i input:checked ~ ul.nav-links {
   display: flex;
-  justify-content: space-between;
-  align-items: baseline;
 }
 
-.flex-nav ul {
-  display: flex;
-  justify-content: space-between;
+/* Baga button */
+i {
+  text-align: end;
+  width: 25%;
+  position: relative;
 }
 
-.flex-nav a:hover {
-  background-color: #7d73fc7a;
+i input {
+  position: absolute;
+  width: 50%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  opacity: 0;
 }
 
-/* a divider */
-div.divider {
-  width: 100%;
-  padding: 0.5px;
-  height: 1px;
-  background-color: #646369;
-}
-
-/* Headline section */
+/* The headline */
 header.headline {
-  flex-grow: 10;
-  min-height: 100%;
   display: flex;
   flex-direction: column;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
 }
 
 .headline hgroup {
-  margin-top: 50px;
-  margin-bottom: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 50px 0;
 }
 
-.headline h1 {
-  color: #9391ff;
-  margin-bottom: 10px;
+.headline h2 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 65px;
+  letter-spacing: 0.37px;
+  color: #7d73fc;
 }
 
-.headline h3 {
-  color: #dfe1e6;
+.headline h4 {
+  font-weight: 500;
+  font-size: 22px;
+
+  /* line-height: 44px; */
+  color: #edecff;
+}
+
+div.description {
+  padding: 20px 25px;
   text-align: center;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
 }
 
-.headline div.itemization {
+div.lists-list {
+  padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  min-height: 362px;
+  min-width: 80%;
+}
+
+section.list-section {
+  flex: 2 2 50%;
+  min-height: 10%;
+}
+
+section.list-section h5 {
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 39px;
+  color: #9490ff;
+}
+
+section.list-section li {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 39px;
+  color: #f5f5ff;
+}
+
+div.headline-footer {
+  display: flex;
+  flex-direction: column;
   width: 75%;
+}
+
+.headline-footer ul {
   display: flex;
   justify-content: space-between;
 }
 
-.headline .itemize {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-.itemize ul {
-  padding: 0;
-}
-
-.headline ul.social {
-  display: flex;
-}
-
-.headline .social a:hover {
-  color: #9390ff;
-}
-
-.itemization h5 {
-  color: #9390ff;
+.headline-footer > a {
+  color: #a2a3ae;
+  text-align: center;
+  padding: 10px 0;
 }
