@@ -71,22 +71,35 @@ header.headline {
   align-items: center;
 }
 
-.headline h1 {
-  color: #9391ff;
+.headline hgroup {
+    margin-top: 50px;
+    margin-bottom: 20px;
 }
 
-.headline h2 {
+.headline h1 {
+  color: #9391ff;
+  margin-bottom: 10px;
+}
+
+.headline h3 {
   color: #dfe1e6;
+  text-align: center;
 }
 
 .headline div.itemization {
+  width: 75%;
   display: flex;
+  justify-content: space-between;
 }
 
 .headline .itemize {
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
+}
+
+.itemize ul {
+  padding: 0;
 }
 
 .headline ul.social {
