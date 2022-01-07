@@ -12,3 +12,25 @@
   margin: 10px 5px;
   min-width: 100%;
 }
+
+.btn {
+  display: inline-flex;
+  width: 89px;
+  height: 48px;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 24px;
+  color: #edecff;
+  justify-content: center;
+  align-items: center;
+}
+
+.btn-primary {
+  background-color: #7d73fc;
+}
+
+.img-placeholder {
+  background: #f9f9f9;
+  width: 327px;
+  height: 236px;
+}
