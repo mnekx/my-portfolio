@@ -28,6 +28,12 @@ nav {
   flex-wrap: wrap;
 }
 
+section h1 {
+  font-weight: 500;
+  font-size: 40px;
+  line-height: 52px;
+}
+
 /* This is the mobile version */
 
 /* The navigation menu */
@@ -78,6 +84,7 @@ header.headline {
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  margin-bottom: 90px;
 }
 
 .headline hgroup {
@@ -143,17 +150,47 @@ div.headline-footer {
   display: flex;
   flex-direction: column;
   width: 75%;
+  margin-top: 48px;
 }
 
 .headline-footer ul {
   display: flex;
   justify-content: space-between;
+  margin-bottom: 38px;
 }
 
 .headline-footer > a {
   color: #a2a3ae;
   text-align: center;
   padding: 10px 0;
+  font-size: 32px;
 }
 
 /* Work Section */
+section.work-content h1 {
+  color: #9490ff;
+}
+
+.card section {
+  margin-top: 10px;
+}
+
+.card h3 {
+  font-weight: 500;
+  line-height: 105px;
+  font-size: 32px;
+  height: 105px;
+
+  /* padding: 20px 0 10px; */
+  font-style: normal;
+}
+
+.card p {
+  font-family: 'Inter', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #dcdce8;
+  height: 204px;
+  width: 327px;
+}
