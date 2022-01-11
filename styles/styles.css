@@ -229,3 +229,32 @@ section.work-content h1 {
   margin-bottom: 40px;
   margin-top: 24px;
 }
+
+.contacts form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contacts input {
+  padding: 15px 16px;
+  min-width: 327px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.contacts textarea {
+  padding: 12px;
+  margin-bottom: 40px;
+  resize: none;
+  width: 327px;
+  height: 148px;
+  outline: none;
+}
+
+.contacts .btn {
+  min-width: 30%;
+  line-height: 0;
+  outline: none;
+}
