@@ -35,6 +35,14 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/mnekx)
 - LinkedIn: [LinkedIn](www.linkedin.com/in/mnemba-chambuya)
 
+👤 **Zelalem Mekonnen**
+
+- GitHub: [@githubhandle](https://github.com/zmekonnen251)
+- LinkedIn: [LinkedIn](https://www.linkedin.com/in/zelalem-g-mekonnen)
+
+## Screenshot
+Screenshot: [see](images\screeshot.PNG)
+
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
