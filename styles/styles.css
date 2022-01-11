@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #191765;
   color: #fff;
   position: relative;
@@ -186,11 +186,42 @@ section.work-content h1 {
 }
 
 .card p {
-  font-family: 'Inter', sans-serif;
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
   height: 204px;
   width: 327px;
+}
+
+/* style for contact section */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 71px;
+}
+
+.contacts h1 {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  font-size: 32px;
+  line-height: 44px;
+  color: #9390ff;
+  text-align: center;
+}
+
+.contacts p {
+  font-family: "Inter", Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 24px;
+  text-align: center;
+  color: #f5f5ff;
+  margin-bottom: 40px;
+  margin-top: 24px;
 }
