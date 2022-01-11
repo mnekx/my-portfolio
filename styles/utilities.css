@@ -28,15 +28,19 @@
   justify-content: center;
   align-items: center;
   font-weight: 600;
-}
-
-.btn:active {
-  outline: none;
-  border: none;
+  background-color: #7d73fc;
 }
 
 .btn-primary {
   background-color: #7d73fc;
+}
+
+.btn:active {
+  background: #5e42d7;
+}
+
+.btn:hover {
+  background: #5e42d7;
 }
 
 .img-placeholder {
