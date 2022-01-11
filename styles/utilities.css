@@ -73,3 +73,9 @@
 .lines-links li:not(:last-of-type) {
   border-right: 1px solid #555;
 }
+
+.social {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 38px;
+}

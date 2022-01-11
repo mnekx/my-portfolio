@@ -258,3 +258,31 @@ section.work-content h1 {
   line-height: 0;
   outline: none;
 }
+
+footer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 40px;
+}
+
+.social-footer {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 25px;
+}
+
+.contacts p {
+  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 28px;
+  text-align: center;
+  color: #ebebff;
+  font-weight: 800;
+}
