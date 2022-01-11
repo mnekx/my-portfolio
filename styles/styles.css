@@ -64,6 +64,12 @@ i input:checked ~ ul.nav-links {
 
 footer {
   border-top: 1px solid #3a3837;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 40px;
 }
 
 /* Baga button */
@@ -189,7 +195,8 @@ section.work-content h1 {
   font-style: normal;
 }
 
-.card p {
+.card p,
+.contacts p {
   font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
@@ -208,26 +215,25 @@ section.work-content h1 {
   margin-bottom: 71px;
 }
 
-.contacts h1 {
+section.contacts h1 {
   font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
   font-style: normal;
-  font-weight: 900;
+  font-weight: 500;
   font-size: 32px;
   line-height: 44px;
   color: #9390ff;
   text-align: center;
 }
 
-.contacts p {
-  font-family: "Inter", Haettenschweiler, "Arial Narrow Bold", sans-serif;
-  font-style: normal;
-  font-weight: normal;
+section.contacts p {
+  margin-top: 14px;
+  text-align: center;
+  width: 327px;
+  height: 105px;
+  margin-bottom: 40px;
   font-size: 16px;
   line-height: 24px;
-  text-align: center;
-  color: #f5f5ff;
-  margin-bottom: 40px;
-  margin-top: 24px;
+  align-self: center;
 }
 
 .contacts form {
@@ -237,7 +243,7 @@ section.work-content h1 {
   align-items: center;
 }
 
-.contacts input {
+section.contacts input {
   padding: 15px 16px;
   min-width: 327px;
   margin-bottom: 24px;
@@ -257,15 +263,7 @@ section.work-content h1 {
   min-width: 30%;
   line-height: 0;
   outline: none;
-}
-
-footer {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 9px;
-  margin-bottom: 40px;
+  border: none;
 }
 
 .social-footer {
@@ -274,15 +272,4 @@ footer {
   justify-content: center;
   align-content: center;
   margin-top: 25px;
-}
-
-.contacts p {
-  font-family: "Roboto", Verdana, Geneva, Tahoma, sans-serif;
-  font-style: normal;
-  font-weight: normal;
-  font-size: 20px;
-  line-height: 28px;
-  text-align: center;
-  color: #ebebff;
-  font-weight: 800;
 }
