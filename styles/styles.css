@@ -62,6 +62,10 @@ i input:checked ~ ul.nav-links {
   display: flex;
 }
 
+footer {
+  border-top: 1px solid #3a3837;
+}
+
 /* Baga button */
 i {
   text-align: end;
