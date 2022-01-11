@@ -5,7 +5,7 @@
 }
 
 body {
-  font-family: 'Roboto', sans-serif;
+  font-family: "Roboto", sans-serif;
   background: #191765;
   color: #fff;
   position: relative;
@@ -60,6 +60,16 @@ nav ul.nav-links {
 
 i input:checked ~ ul.nav-links {
   display: flex;
+}
+
+footer {
+  border-top: 1px solid #3a3837;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 9px;
+  margin-bottom: 40px;
 }
 
 /* Baga button */
@@ -185,12 +195,81 @@ section.work-content h1 {
   font-style: normal;
 }
 
-.card p {
-  font-family: 'Inter', sans-serif;
+.card p,
+.contacts p {
+  font-family: "Inter", sans-serif;
   font-weight: 400;
   font-size: 20px;
   line-height: 28px;
   color: #dcdce8;
   height: 204px;
   width: 327px;
+}
+
+/* style for contact section */
+
+.contacts {
+  display: flex;
+  flex-direction: column;
+  margin-top: 120px;
+  margin-bottom: 71px;
+}
+
+section.contacts h1 {
+  font-family: "Roboto", "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 32px;
+  line-height: 44px;
+  color: #9390ff;
+  text-align: center;
+}
+
+section.contacts p {
+  margin-top: 14px;
+  text-align: center;
+  width: 327px;
+  height: 105px;
+  margin-bottom: 40px;
+  font-size: 16px;
+  line-height: 24px;
+  align-self: center;
+}
+
+.contacts form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+section.contacts input {
+  padding: 15px 16px;
+  min-width: 327px;
+  margin-bottom: 24px;
+  outline: none;
+}
+
+.contacts textarea {
+  padding: 12px;
+  margin-bottom: 40px;
+  resize: none;
+  width: 327px;
+  height: 148px;
+  outline: none;
+}
+
+.contacts .btn {
+  min-width: 30%;
+  line-height: 0;
+  outline: none;
+  border: none;
+}
+
+.social-footer {
+  display: flex;
+  gap: 23px;
+  justify-content: center;
+  align-content: center;
+  margin-top: 25px;
 }
