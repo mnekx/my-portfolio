@@ -11,6 +11,21 @@ body {
   position: relative;
 }
 
+body > img {
+  position: absolute;
+  top: 237px;
+  left: 69px;
+  width: 184px;
+  height: 184px;
+}
+
+#c2 {
+  top: 546px;
+  left: calc(100% - 215px);
+  width: 226px;
+  height: 226px;
+}
+
 ul {
   list-style: none;
 }
@@ -163,22 +178,26 @@ div.headline-footer {
   margin-top: 48px;
 }
 
-.headline-footer ul {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 38px;
-}
-
 .headline-footer > a {
+  display: inline-block;
   color: #a2a3ae;
   text-align: center;
   padding: 10px 0;
   font-size: 32px;
 }
 
+.headline-footer > a.first {
+  display: none;
+}
+
 /* Work Section */
 section.work-content h1 {
   color: #9490ff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 .card section {

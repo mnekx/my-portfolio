@@ -1,5 +1,25 @@
+/* Tag styles */
+footer {
+  flex-direction: row;
+  min-height: 72px;
+  margin-bottom: 0;
+}
+
+footer p {
+  height: 29px;
+  line-height: 29px;
+}
+
 .container {
   max-width: 872px;
+}
+
+#c2 {
+  left: 1143px;
+}
+
+.seperator {
+  min-width: 447px;
 }
 
 /* The nav-bar */
@@ -20,4 +40,123 @@ nav ul.nav-links {
 
 i.fa-bars {
   visibility: hidden;
+}
+
+/* The headline */
+header.headline {
+  margin-bottom: 232px;
+}
+
+div.description {
+  width: 427px;
+}
+
+div.lists-list {
+  min-width: 447px;
+  flex-wrap: nowrap;
+}
+
+div.headline-footer {
+  justify-content: space-between;
+  flex-direction: row;
+}
+
+.headline-footer > a.first {
+  display: inline-block;
+}
+
+.social {
+  margin: 0;
+  justify-content: center;
+  align-items: center;
+  gap: 23px;
+}
+
+/* Work Section */
+.card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 269px 40px 24px;
+  margin-top: 86px;
+  min-height: 374px;
+}
+
+.card .img-placeholder {
+  grid-row: 1/3;
+  grid-column: 1/3;
+  margin: 0 24px;
+  width: 484px;
+  height: 356px;
+}
+
+.card:nth-child(even) div.img-placeholder {
+  grid-column: span 2 /5;
+}
+
+.card section {
+  margin-top: 0;
+  grid-row: 1/2;
+  grid-column: 3/5;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+
+.card:nth-child(even) section {
+  grid-column: 1/3;
+}
+
+.card section h3 {
+  line-height: 75px;
+  height: 75px;
+}
+
+section.card-desc p {
+  line-height: 28px;
+  font-size: 20px;
+}
+
+.card ul {
+  grid-row: 2/3;
+  grid-column: 3/5;
+}
+
+.card:nth-child(even) ul {
+  grid-column: 1/3;
+}
+
+.card > a {
+  grid-row: 3/3;
+  grid-column: 3/5;
+}
+
+.card:nth-child(even) > a {
+  grid-column: 1/3;
+}
+
+.lines-links li {
+  width: auto;
+}
+
+/* Contact Section */
+section.contacts {
+  max-width: 684px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+section.contacts p {
+  min-width: 100%;
+}
+
+section.contacts input,
+.contacts textarea {
+  min-width: 100%;
+}
+
+/* Footer */
+
+ul.social-footer {
+  margin-top: 0;
 }
