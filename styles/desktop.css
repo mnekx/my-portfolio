@@ -1,24 +1,23 @@
 .container {
-    max-width: 872px;
+  max-width: 872px;
 }
 
 /* The nav-bar */
 
 nav {
-    flex-wrap: nowrap;
+  flex-wrap: nowrap;
 }
 
 nav ul.nav-links {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
 }
 
 .nav-links a {
-    padding: 0 10px;
+  padding: 0 10px;
 }
 
 i.fa-bars {
-    visibility: hidden;
+  visibility: hidden;
 }
-
