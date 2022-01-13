@@ -42,13 +42,13 @@ To get a local copy up and running follow these simple example steps.
 
 ## Screenshot
 
-Screenshot: [see](.\images\screeshot.PNG)
+Screenshot: 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the (https://github.com/mnekx/github-slideshow/issues/1).
+Feel free to check the (https://github.com/mnekx/my-portfolio/issues/).
 
 ## Show your support
 
