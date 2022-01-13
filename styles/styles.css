@@ -8,7 +8,44 @@ body {
   font-family: "Roboto", sans-serif;
   background: #191765;
   color: #fff;
-  position: relative;
+}
+
+.container > img {
+  position: absolute;
+}
+
+#c1 {
+  top: 48px;
+  left: -115px;
+  width: 226px;
+  height: 226px;
+}
+
+#c2 {
+  right: -115px;
+  top: 587px;
+  width: 226px;
+  height: 226px;
+}
+
+#l1 {
+  top: 1024.71px;
+  left: -112.04px;
+}
+
+#l2 {
+  top: 1937px;
+  right: -115px;
+}
+
+#c3 {
+  left: -115px;
+  top: 2774px;
+}
+
+#l3 {
+  top: 3323px;
+  right: -115px;
 }
 
 ul {
@@ -163,22 +200,26 @@ div.headline-footer {
   margin-top: 48px;
 }
 
-.headline-footer ul {
-  display: flex;
-  justify-content: space-between;
-  margin-bottom: 38px;
-}
-
 .headline-footer > a {
+  display: inline-block;
   color: #a2a3ae;
   text-align: center;
   padding: 10px 0;
   font-size: 32px;
 }
 
+.headline-footer > a.first {
+  display: none;
+}
+
 /* Work Section */
 section.work-content h1 {
   color: #9490ff;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
 }
 
 .card section {

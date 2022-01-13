@@ -40,14 +40,15 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: [@githubhandle](https://github.com/zmekonnen251)
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zelalem-g-mekonnen)
 
-## Screenshot
-Screenshot: [see](images\screeshot.PNG)
+## Screenshot ![see](./images/screenshot.PNG?raw=true "Title")
+
+Screenshot: 
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
 
-Feel free to check the (https://github.com/mnekx/github-slideshow/issues/1).
+Feel free to check the (https://github.com/mnekx/my-portfolio/issues/).
 
 ## Show your support
 
