@@ -304,8 +304,7 @@ input::placeholder,
 textarea::placeholder {
   transition-property: font-size;
   transition-timing-function: ease;
-  transition-duration: 1s;
-  transition-delay: 0.25s;
+  transition-duration: 0.3s;
 }
 
 input:focus::placeholder,

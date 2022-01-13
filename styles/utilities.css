@@ -35,6 +35,7 @@
   transition-property: background-color;
   transition-timing-function: ease;
   transition-duration: 0.5s;
+  border: none;
 }
 
 .btn:hover {
@@ -46,10 +47,6 @@
 }
 
 .btn:active {
-  background: #5e42d7;
-}
-
-.btn:hover {
   background: #5e42d7;
 }
 

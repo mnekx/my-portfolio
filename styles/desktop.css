@@ -12,6 +12,8 @@ footer p {
 
 .container {
   padding: 0 132.5px;
+  max-width: 1098px;
+  margin: 0 auto;
 }
 
 .seperator {
@@ -36,7 +38,9 @@ footer p {
 }
 
 #c3 {
+  top: 3150px;
   left: -5px;
+  width: 300px;
 }
 
 #l3 {
