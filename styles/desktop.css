@@ -11,15 +11,36 @@ footer p {
 }
 
 .container {
-  padding: 0 142.5px;
-}
-
-#c2 {
-  left: calc(100% - 220px);
+  padding: 0 132.5px;
 }
 
 .seperator {
   min-width: 447px;
+}
+
+/* IDs */
+#c1 {
+  left: -5px;
+}
+
+#c2 {
+  right: -3px;
+}
+
+#l1 {
+  left: -2px;
+}
+
+#l2 {
+  right: -3px;
+}
+
+#c3 {
+  left: -5px;
+}
+
+#l3 {
+  right: -3px;
 }
 
 /* The nav-bar */
@@ -89,8 +110,13 @@ div.headline-footer {
   height: 356px;
 }
 
+.card:nth-child(odd) div.img-placeholder {
+  margin-left: 0;
+}
+
 .card:nth-child(even) div.img-placeholder {
   grid-column: span 2 /5;
+  margin-right: 0;
 }
 
 .card section {

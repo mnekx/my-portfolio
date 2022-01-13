@@ -2,6 +2,8 @@
   width: 100%;
   margin: 0;
   padding: 0 32px;
+  position: relative;
+  overflow: hidden;
 }
 
 .nav-links {
