@@ -13,17 +13,37 @@ body {
 
 body > img {
   position: absolute;
-  top: 237px;
-  left: 69px;
+  top: 37px;
+  left: -100px;
   width: 184px;
   height: 184px;
 }
 
 #c2 {
   top: 546px;
-  left: calc(100% - 215px);
+  left: calc(100% - 115px);
   width: 226px;
   height: 226px;
+}
+
+#l1 {
+  top: 1624.71px;
+  left: -52.04px;
+}
+
+#l2 {
+  top: 2437.23px;
+  left: calc(100% - 150px);
+}
+
+#c3 {
+  top: 3625px;
+  left: 0;
+}
+
+#l3 {
+  top: 4023px;
+  left: calc(100% - 150px);
 }
 
 ul {
