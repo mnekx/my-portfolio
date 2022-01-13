@@ -32,6 +32,13 @@
   align-items: center;
   font-weight: 600;
   background-color: #7d73fc;
+  transition-property: background-color;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+}
+
+.btn:hover {
+  background-color: #5e42d7;
 }
 
 .btn-primary {
