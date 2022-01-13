@@ -41,7 +41,8 @@ To get a local copy up and running follow these simple example steps.
 - LinkedIn: [LinkedIn](https://www.linkedin.com/in/zelalem-g-mekonnen)
 
 ## Screenshot
-Screenshot: [see](images\screeshot.PNG)
+
+Screenshot: [see](.\images\screeshot.PNG)
 
 ## 🤝 Contributing
 
