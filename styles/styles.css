@@ -300,11 +300,17 @@ section.contacts input {
   outline: none;
 }
 
-.contacts .btn {
-  min-width: 30%;
-  line-height: 0;
-  outline: none;
-  border: none;
+input::placeholder,
+textarea::placeholder {
+  transition-property: font-size;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+  transition-delay: 0.25s;
+}
+
+input:focus::placeholder,
+textarea:focus::placeholder {
+  font-size: 22px;
 }
 
 .social-footer {
