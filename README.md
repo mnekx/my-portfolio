@@ -27,13 +27,14 @@ To get a local copy up and running follow these simple example steps.
 ### Run tests
 
 ### Deployment
+[gitpages](https://mnekx.github.io/my-portfolio/)
 
 ## Authors
 
 👤 **Mnemba Chambuya**
 
-- GitHub: [@githubhandle](https://github.com/mnekx)
-- LinkedIn: [LinkedIn](www.linkedin.com/in/mnemba-chambuya)
+- [GitHub](https://github.com/mnekx)
+- [LinkedIn](www.linkedin.com/in/mnemba-chambuya)
 
 👤 **Zelalem Mekonnen**
 
