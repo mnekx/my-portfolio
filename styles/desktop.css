@@ -47,7 +47,7 @@ footer p {
   right: -3px;
 }
 
-/* The nav-bar */
+/* ----The nav-bar----- */
 
 nav {
   flex-wrap: nowrap;
@@ -89,8 +89,8 @@ nav ul.nav-links {
   width: 0;
   height: 1px;
   transition-property: width;
-  transition-duration: 0.1s;
-  transition-timing-function: ease;
+  transition-duration: 0.5s;
+  transition-timing-function: cubic-bezier(1, 0, 0, 1);
   background-color: white;
 }
 
