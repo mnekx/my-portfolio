@@ -10,12 +10,6 @@ footer p {
   line-height: 29px;
 }
 
-.container {
-  padding: 0 132.5px;
-  max-width: 1098px;
-  margin: 0 auto;
-}
-
 .seperator {
   min-width: 447px;
 }
@@ -57,6 +51,7 @@ nav ul.nav-links {
   display: flex;
   flex-direction: row;
   justify-content: flex-end;
+  max-width: 416.5px;
 }
 
 .nav-link {

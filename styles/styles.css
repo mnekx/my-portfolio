@@ -65,7 +65,7 @@ nav {
   flex-wrap: wrap;
 }
 
-section h1 {
+section h2 {
   font-weight: 500;
   font-size: 40px;
   line-height: 52px;
@@ -81,7 +81,7 @@ nav .logo {
   align-items: center;
 }
 
-.logo h4 {
+.logo h1 {
   font-weight: 500;
   font-size: 18px;
   line-height: 16px;
@@ -132,6 +132,9 @@ header.headline {
   justify-content: center;
   align-items: center;
   margin-bottom: 90px;
+  max-width: 833px;
+  margin-right: auto;
+  margin-left: auto;
 }
 
 .headline hgroup {
@@ -150,7 +153,7 @@ header.headline {
   color: #7d73fc;
 }
 
-.headline h4 {
+.headline h3 {
   font-weight: 500;
   font-size: 32px;
 
@@ -179,7 +182,7 @@ section.list-section {
   min-height: 10%;
 }
 
-section.list-section h5 {
+section.list-section h4 {
   font-weight: 500;
   font-size: 12px;
   line-height: 39px;
@@ -213,7 +216,12 @@ div.headline-footer {
 }
 
 /* Work Section */
-section.work-content h1 {
+section.work-content {
+  max-width: 833px;
+  margin: 0 auto;
+}
+
+section.work-content h2 {
   color: #9490ff;
 }
 
@@ -254,6 +262,7 @@ section.work-content h1 {
   flex-direction: column;
   margin-top: 120px;
   margin-bottom: 71px;
+  max-width: 684px;
 }
 
 section.contacts h1 {
