@@ -328,3 +328,7 @@ textarea:focus::placeholder {
   align-content: center;
   margin-top: 25px;
 }
+
+.show {
+  display: flex!important;
+}
