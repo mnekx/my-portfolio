@@ -91,4 +91,14 @@
   margin-bottom: 38px;
 }
 
+.show {
+  display: flex !important;
+}
 
+.show-icon {
+  display: inline-block !important;
+}
+
+.hide-icon {
+  display: none !important;
+}
