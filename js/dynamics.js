@@ -1,7 +1,7 @@
 const menuIcon = document.querySelector('#humberger_menu_icon');
 const menuList = document.querySelector('#humberger_menu_list');
 const closeMenuIcon = document.querySelector('#close-menu');
-const logoHeader = document.querySelector(".logo h1");
+const logoHeader = document.querySelector('.logo h1');
 menuIcon.addEventListener('click', () => {
   closeMenuIcon.classList.add('show-icon');
   menuList.classList.add('show');
