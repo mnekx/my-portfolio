@@ -109,12 +109,19 @@ nav ul.nav-links {
   display: none;
 }
 
-nav ul li {
+.nav-link {
   padding: 4vh 14vw;
+  display: flex;
+  justify-content: space-between;
 }
 
-nav ul li a {
+.nav-link a {
   text-align: start;
+}
+
+.nav-link .fa-angle-right {
+  display: inline-block;
+  color: #acb7c3;
 }
 
 i#close-menu {

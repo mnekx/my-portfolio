@@ -52,6 +52,7 @@ nav ul.nav-links {
   flex-direction: row;
   justify-content: flex-end;
   max-width: 416.5px;
+  min-height: 0;
 }
 
 .nav-link {
@@ -62,6 +63,7 @@ nav ul.nav-links {
   align-items: center;
   text-align: center;
   position: relative;
+  padding: 0;
 }
 
 .nav-link a {
@@ -73,6 +75,14 @@ nav ul.nav-links {
   justify-self: center;
   align-self: center;
   padding-top: 14%;
+}
+
+.nav-links .fa-envelope {
+  display: inline-block;
+}
+
+.nav-link .fa-angle-right {
+  display: none;
 }
 
 /* nav links transitions */
