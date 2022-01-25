@@ -65,6 +65,16 @@ nav {
   flex-wrap: wrap;
 }
 
+i {
+  /* position: absolute; */
+  top: 0;
+  right: 0;
+  display: inline-block;
+  text-align: end;
+  width: 25%;
+  position: relative;
+}
+
 section h2 {
   font-weight: 500;
   font-size: 40px;
@@ -92,11 +102,30 @@ nav ul.nav-links {
   display: none;
   flex-direction: column;
   padding: 0;
-  align-items: center;
+  min-height: 100vh;
 }
 
-i input:checked ~ ul.nav-links {
+.nav-links .fa-envelope {
+  display: none;
+}
+
+.nav-link {
+  padding: 4vh 14vw;
   display: flex;
+  justify-content: space-between;
+}
+
+.nav-link a {
+  text-align: start;
+}
+
+.nav-link .fa-angle-right {
+  display: inline-block;
+  color: #acb7c3;
+}
+
+i#close-menu {
+  display: none;
 }
 
 footer {
@@ -110,11 +139,6 @@ footer {
 }
 
 /* Baga button */
-i {
-  text-align: end;
-  width: 25%;
-  position: relative;
-}
 
 i input {
   position: absolute;
