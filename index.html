@@ -165,7 +165,7 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xzbodpbq" method="post">
+        <form id="contact-form" action="https://formspree.io/f/xzbodpbq" method="post">
           <input
             type="text"
             name="name"
@@ -187,9 +187,9 @@
             placeholder="Enter Text Here"
             maxlength="500"
           ></textarea>
-          <button type="submit" class="btn btn-primary">
+          <button id="contact-submit-btn" type="submit" class="btn btn-primary">
             Get in touch
-            <span class="error-message"
+            <span id="contact-email-error" class="error-message"
               >We would appreciate if the email is in lower case!</span
             >
           </button>
@@ -262,5 +262,6 @@
 
     <script src="js/dynamics.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/validations.js"></script>
   </body>
 </html>
