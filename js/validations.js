@@ -19,7 +19,7 @@ contactForm.addEventListener('submit', (e) => {
             contactForm.submit();
         }
     }
-});
+})
 
 contactSubmitBtn.addEventListener('click',(event)=>{
     if (!valid(contactEmail.value)) {
