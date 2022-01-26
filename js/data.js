@@ -100,7 +100,25 @@ const closeModalSpan = document.querySelector('#modal-closer');
 
 const projectbtnsArr = Array.from(openModalBtns);
 
-// Paste the code here
+for (let j = 0; j < projectbtnsArr.length; j += 1) {
+  projectbtnsArr[j].addEventListener('click', () => {
+    modal.classList.add('show');
+    const clickedProject = projects.filter((project) => project.id === projectbtnsArr[j].id)[0];
+    const modalTitle = document.querySelector('#modal-title');
+    const modalImage = document.querySelector('#modal-image');
+    const modalDesc = document.querySelector('#modal-description');
+    const modalLInks = document.querySelector('#modal-lines-links');
+    modalTitle.innerHTML = clickedProject.title;
+    modalImage.src = clickedProject.screenshot;
+    modalDesc.innerHTML = clickedProject.description;
+    modalLInks.innerHTML = '';
+    for (let i = 0; i < clickedProject.technologies.length; i += 1) {
+      const li = document.createElement('li');
+      li.innerText = clickedProject.technologies[i];
+      modalLInks.appendChild(li);
+    }
+  });
+}
 
 closeModalSpan.addEventListener('click', () => {
   modal.classList.remove('show');
