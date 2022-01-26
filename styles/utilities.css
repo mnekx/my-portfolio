@@ -112,8 +112,19 @@
   min-height: 16vh;
 }
 
-
 /* Errors */
+
+button[type='submit'] {
+  position: relative;
+}
+
 .error-message {
-  display: none;
+  /* display: none; */
+  position: absolute;
+  top: -100%;
+  left: 100%;
+  color: white;
+  background-color: red;
+  width: 20vw;
+  border-radius: 3px 3px 3px 0;
 }
