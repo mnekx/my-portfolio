@@ -1,39 +1,47 @@
 const projects = [
   {
     id: 'project1',
-    title: 'Multi-Post Strories',
-    screenshot: './images/modal-image.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    title: 'Special Tributes',
+    screenshot: './images/tribute.PNG',
+    description: 'A special tribute to a special man.',
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
+    liveLink: 'https://mnekx.github.io/tribute-page/',
+    codeLink: 'https://github.com/mnekx/tribute-page',
   },
   {
     id: 'project2',
-    title: 'Multi-Post Strories',
-    screenshot: './images/modal-image.png',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    title: 'Humburger Menu',
+    screenshot: './images/humburger.PNG',
+    description: 'It is a navigation menu, animations and transitions done with CSS',
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
+    liveLink: 'https://mnekx.github.io/humbugger-menu/',
+    codeLink: 'https://github.com/mnekx/humbugger-menu',
   },
   {
     id: 'project3',
-    title: 'Multi-Post Strories',
-    screenshot: './images/modal-image.png',
+    title: 'Landing Page',
+    screenshot: './images/landing-page.PNG',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
+    liveLink: 'https://mnekx.github.io/landing-page/',
+    codeLink: 'https://github.com/mnekx/landing-page',
   },
   {
     id: 'project4',
-    title: 'Multi-Post Strories',
-    screenshot: './images/modal-image.png',
+    title: 'Survey Form',
+    screenshot: './images/survey-form.PNG',
     description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
+    liveLink: 'https://mnekx.github.io/survey-form/',
+    codeLink: 'https://github.com/mnekx/survey-form',
   },
 
 ];
@@ -55,8 +63,8 @@ for (let i = 0; i < projects.length; i += 1) {
   imgPlaceHolder.className = 'img-placeholder';
 
   const imgElement = document.createElement('img');
-  imgElement.src = './images/img-placeholder.png';
-  imgElement.alt = 'multi-post-stories-image';
+  imgElement.src = projects[i].screenshot;
+  imgElement.alt = projects[i].title;
 
   imgPlaceHolder.appendChild(imgElement);
 
@@ -108,6 +116,8 @@ for (let j = 0; j < projectbtnsArr.length; j += 1) {
     const modalImage = document.querySelector('#modal-image');
     const modalDesc = document.querySelector('#modal-description');
     const modalLInks = document.querySelector('#modal-lines-links');
+    const liveBtn = document.querySelector('#live-btn');
+    const codeBtn = document.querySelector('#code-btn');
     modalTitle.innerHTML = clickedProject.title;
     modalImage.src = clickedProject.screenshot;
     modalDesc.innerHTML = clickedProject.description;
@@ -117,6 +127,8 @@ for (let j = 0; j < projectbtnsArr.length; j += 1) {
       li.innerText = clickedProject.technologies[i];
       modalLInks.appendChild(li);
     }
+    codeBtn.href = clickedProject.codeLink;
+    liveBtn.href = clickedProject.liveLink;
   });
 }
 

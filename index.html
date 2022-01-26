@@ -165,7 +165,11 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xzbodpbq" method="post">
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xzbodpbq"
+          method="post"
+        >
           <input
             type="text"
             name="name"
@@ -187,7 +191,12 @@
             placeholder="Enter Text Here"
             maxlength="500"
           ></textarea>
-          <button type="submit" class="btn btn-primary">Get in touch</button>
+          <button id="contact-submit-btn" type="submit" class="btn btn-primary">
+            Get in touch
+            <span id="contact-email-error" class="error-message"
+              >We would appreciate if the email is in lower case!</span
+            >
+          </button>
         </form>
       </section>
       <img id="c1" src="./images/circle1.png" alt="DesignCircle" />
@@ -243,11 +252,11 @@
 
         <ul id="modal-lines-links" class="lines-links"></ul>
         <div class="btn-group">
-          <a class="btn" href="githubpages">
+          <a class="btn" id="live-btn" href="#">
             See Live &nbsp;&nbsp;&nbsp;
             <i class="fas fa-tv"></i>
           </a>
-          <a class="btn" href="github">
+          <a class="btn" id="code-btn" href="#">
             See Code
             <i class="fab fa-github"></i>
           </a>
@@ -257,5 +266,6 @@
 
     <script src="js/dynamics.js"></script>
     <script src="js/data.js"></script>
+    <script src="js/validations.js"></script>
   </body>
 </html>
