@@ -111,3 +111,9 @@
   align-items: center;
   min-height: 16vh;
 }
+
+
+/* Errors */
+.error-message {
+  display: none;
+}
