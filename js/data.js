@@ -3,23 +3,23 @@ const projects = [
     id: 'project1',
     title: 'Special Tributes',
     screenshot: './images/tribute.PNG',
-    description: "A special tribute to a special man.",
+    description: 'A special tribute to a special man.',
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
-    liveLink: "https://mnekx.github.io/tribute-page/",
-    codeLink: "https://github.com/mnekx/tribute-page"
+    liveLink: 'https://mnekx.github.io/tribute-page/',
+    codeLink: 'https://github.com/mnekx/tribute-page',
   },
   {
     id: 'project2',
     title: 'Humburger Menu',
     screenshot: './images/humburger.PNG',
-    description: "It is a navigation menu, animations and transitions done with CSS",
+    description: 'It is a navigation menu, animations and transitions done with CSS',
     technologies: [
-      'css', 'html','bootstrap', 'ruby',
+      'css', 'html', 'bootstrap', 'ruby',
     ],
-    liveLink: "https://mnekx.github.io/humbugger-menu/",
-    codeLink: "https://github.com/mnekx/humbugger-menu"
+    liveLink: 'https://mnekx.github.io/humbugger-menu/',
+    codeLink: 'https://github.com/mnekx/humbugger-menu',
   },
   {
     id: 'project3',
@@ -29,8 +29,8 @@ const projects = [
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
-    liveLink: "https://mnekx.github.io/landing-page/",
-    codeLink: "https://github.com/mnekx/landing-page"
+    liveLink: 'https://mnekx.github.io/landing-page/',
+    codeLink: 'https://github.com/mnekx/landing-page',
   },
   {
     id: 'project4',
@@ -40,8 +40,8 @@ const projects = [
     technologies: [
       'css', 'html', 'bootstrap', 'ruby',
     ],
-    liveLink: "https://mnekx.github.io/survey-form/",
-    codeLink: "https://github.com/mnekx/survey-form"
+    liveLink: 'https://mnekx.github.io/survey-form/',
+    codeLink: 'https://github.com/mnekx/survey-form',
   },
 
 ];
