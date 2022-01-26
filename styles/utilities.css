@@ -119,7 +119,7 @@ button[type='submit'] {
 }
 
 .error-message {
-  /* display: none; */
+  display: none;
   position: absolute;
   top: -100%;
   left: 100%;
