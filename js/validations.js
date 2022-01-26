@@ -33,3 +33,8 @@ contactSubmitBtn.addEventListener('click',(event)=>{
         }
     }
 });
+
+function valid(email) {
+    let lowerCasedEmail = email.toLowerCase();
+    return email === lowerCasedEmail
+}
