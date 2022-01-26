@@ -182,7 +182,7 @@ div.headline-footer {
   height: 75px;
 }
 
-section.card-desc p {
+.card-desc p {
   line-height: 28px;
   font-size: 20px;
 }
@@ -216,7 +216,7 @@ section.contacts {
   margin-left: auto;
 }
 
-section.contacts p {
+.contacts p {
   min-width: 100%;
 }
 
@@ -229,4 +229,23 @@ section.contacts input,
 
 ul.social-footer {
   margin-top: 0;
+}
+
+/* The modal */
+#modal-lines-links {
+  max-width: 30vw;
+  margin-bottom: 0;
+}
+
+.modal-content p {
+  max-width: 50vw;
+  align-self: center;
+}
+
+.btn-group {
+  max-width: 30vw;
+  max-height: 0;
+  flex-direction: row;
+  align-self: center;
+  width: 20vw;
 }

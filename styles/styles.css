@@ -29,7 +29,7 @@ body {
 }
 
 #l1 {
-  top: 1024.71px;
+  top: 861.71px;
   left: -112.04px;
 }
 
@@ -299,7 +299,7 @@ section.contacts h1 {
   text-align: center;
 }
 
-section.contacts p {
+.contacts p {
   margin-top: 14px;
   text-align: center;
   width: 327px;
@@ -351,4 +351,61 @@ textarea:focus::placeholder {
   justify-content: center;
   align-content: center;
   margin-top: 25px;
+}
+
+/* The modal */
+.modal {
+  /* display: flex; */
+  display: none;
+  border: 1px solid gray;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #191765;
+
+  /* background-color: rgba(37, 47, 137, 0.08); */
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  display: flex;
+  flex-direction: column;
+  width: 90vw;
+  height: 90vh;
+  background: rgba(255, 255, 255, 0.16);
+  overflow-y: auto;
+  padding: 5vh 10vw;
+  border: 1px solid white;
+}
+
+#modal-closer {
+  justify-self: flex-end;
+  cursor: pointer;
+  display: inline-block;
+  height: auto;
+  font-size: 25px;
+}
+
+#modal-hgroup {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5vh;
+}
+
+.modal-content p {
+  margin-top: 4vh;
+  text-align: center;
+}
+
+#modal-lines-links {
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  max-width: 65vw;
+  margin: 5vh auto;
+  width: auto;
 }

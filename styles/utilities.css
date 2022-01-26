@@ -40,6 +40,7 @@
 
 .btn:hover {
   background-color: #5e42d7;
+  cursor: pointer;
 }
 
 .btn-primary {
@@ -101,4 +102,12 @@
 
 .hide-icon {
   display: none !important;
+}
+
+.btn-group {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  min-height: 16vh;
 }
