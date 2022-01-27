@@ -53,22 +53,4 @@ if (storageAvailable('localStorage')) {
   }
 }
 
-fullName.addEventListener('keyup', () => {
-  populateStorage();
-});
-email.addEventListener('keyup', () => {
-  populateStorage();
-});
-message.addEventListener('keyup', () => {
-  populateStorage();
-});
-
-fullName.addEventListener('keyup', () => {
-  populateStorage();
-});
-email.addEventListener('keyup', () => {
-  populateStorage();
-});
-message.addEventListener('keyup', () => {
-  populateStorage();
-});
+// Paste code here
