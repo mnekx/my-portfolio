@@ -3,10 +3,10 @@ const email = document.querySelector('#email');
 const message = document.querySelector('#message');
 
 const contactFormData = {
-    fullName: fullName.value,
-    email: email.value,
-    message: message.value
-}
+  fullName: fullName.value,
+  email: email.value,
+  message: message.value,
+};
 
 function storageAvailable(type) {
   let storage;
@@ -37,15 +37,13 @@ function setInputs() {
 
   fullName.value = contactFormData.fullName;
   email.value = contactFormData.email;
-  message.value =contactFormData.message;
+  message.value = contactFormData.message;
 }
 
 function populateStorage() {
-    contactFormData.fullName = fullName.value;
-    contactFormData.email = email.value;
-    contactFormData.message = message.value;
-
-    console.log(contactFormData)
+  contactFormData.fullName = fullName.value;
+  contactFormData.email = email.value;
+  contactFormData.message = message.value;
 
   localStorage.setItem('contactData', JSON.stringify(contactFormData));
   setInputs();
