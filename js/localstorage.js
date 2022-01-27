@@ -53,4 +53,12 @@ if (storageAvailable('localStorage')) {
   }
 }
 
-// Paste code here
+fullName.addEventListener('keyup', () => {
+  populateStorage();
+});
+email.addEventListener('keyup', () => {
+  populateStorage();
+});
+message.addEventListener('keyup', () => {
+  populateStorage();
+});
