@@ -52,3 +52,13 @@ if (storageAvailable('localStorage')) {
     setInputs();
   }
 }
+
+fullName.addEventListener('keyup', ()=> {
+    populateStorage()
+})
+email.addEventListener('keyup', ()=> {
+    populateStorage()
+})
+message.addEventListener('keyup', ()=> {
+    populateStorage()
+})

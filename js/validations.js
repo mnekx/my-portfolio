@@ -60,7 +60,6 @@ contactForm.addEventListener('submit', (e) => {
   } else {
     errorMessageSpan.classList.remove('show-icon');
     if (contactFullName.value !== '' && contactMessage !== '') {
-      populateStorage();
       contactForm.submit();
     }
   }
