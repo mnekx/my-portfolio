@@ -12,12 +12,10 @@ function valid(email) {
 
 contactForm.addEventListener('submit', (e) => {
   e.preventDefault();
-  console.log(valid(contactEmail.value));
   if (!valid(contactEmail.value)) {
     errorMessageSpan.classList.add('show-icon'); // The class adds display: inline-block
     e.preventDefault();
   } else {
-    errorMessageSpan.classList.remove('show-icon');
     errorMessageSpan.classList.remove('show-icon');
     if (contactFullName.value !== '' && contactMessage !== '') {
       contactForm.submit();
