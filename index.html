@@ -156,104 +156,7 @@
       <section id="my-work" class="work-content">
         <h2>MY RECENT WORK</h2>
         <div class="seperator"></div>
-        <div class="cards">
-          <div class="card">
-            <div class="img-placeholder">
-              <img
-                src="./images/img-placeholder.png"
-                alt="multi-post-stories-image"
-              />
-            </div>
-            <section class="card-desc">
-              <h3>Multi-Post Strories</h3>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-            </section>
-            <ul class="lines-links">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>ruby</li>
-            </ul>
-            <a href="#project" class="btn btn-primary">See Project</a>
-          </div>
-          <div class="card">
-            <div class="img-placeholder">
-              <img
-                src="./images/img-placeholder.png"
-                alt="multi-post-stories-image"
-              />
-            </div>
-            <section>
-              <h3>Multi-Post Strories</h3>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-            </section>
-            <ul class="lines-links">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>ruby</li>
-            </ul>
-            <a href="#project" class="btn btn-primary">See Project</a>
-          </div>
-          <div class="card">
-            <div class="img-placeholder">
-              <img
-                src="./images/img-placeholder.png"
-                alt="multi-post-stories-image"
-              />
-            </div>
-            <section>
-              <h3>Multi-Post Strories</h3>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-            </section>
-            <ul class="lines-links">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>ruby</li>
-            </ul>
-            <a href="#project" class="btn btn-primary">See Project</a>
-          </div>
-          <div class="card">
-            <div class="img-placeholder">
-              <img
-                src="./images/img-placeholder.png"
-                alt="multi-post-stories-image"
-              />
-            </div>
-            <section>
-              <h3>Multi-Post Strories</h3>
-              <p>
-                A daily selection of privately personalized reads; no accounts
-                or sign-ups required. has been the industry's standard dummy
-                text ever since the 1500s, when an unknown printer took a
-                standard dummy text.
-              </p>
-            </section>
-            <ul class="lines-links">
-              <li>css</li>
-              <li>html</li>
-              <li>bootstrap</li>
-              <li>ruby</li>
-            </ul>
-            <a href="#project" class="btn btn-primary">See Project</a>
-          </div>
-        </div>
+        <div class="cards"></div>
       </section>
       <section id="contact" class="contacts">
         <h1>Let Us Chat!</h1>
@@ -262,7 +165,11 @@
           that you need built or a project that needs coding. I’d love to help
           with it
         </p>
-        <form action="https://formspree.io/f/xzbodpbq" method="post">
+        <form
+          id="contact-form"
+          action="https://formspree.io/f/xzbodpbq"
+          method="post"
+        >
           <input
             type="text"
             name="name"
@@ -284,7 +191,12 @@
             placeholder="Enter Text Here"
             maxlength="500"
           ></textarea>
-          <button type="submit" class="btn btn-primary">Get in touch</button>
+          <button id="contact-submit-btn" type="submit" class="btn btn-primary">
+            Get in touch
+            <span id="contact-email-error" class="error-message"
+              >We would appreciate if the email is in lower case!</span
+            >
+          </button>
         </form>
       </section>
       <img id="c1" src="./images/circle1.png" alt="DesignCircle" />
@@ -323,6 +235,37 @@
 
       <p>mnemba.chambuya@gmail.com</p>
     </footer>
-    <script src="./js/dynamics.js"></script>
+    <div class="modal">
+      <section class="modal-content">
+        <header id="modal-hgroup">
+          <h1 id="modal-title">Project Title</h1>
+          <span id="modal-closer">&times;</span>
+        </header>
+
+        <img
+          id="modal-image"
+          src="./images/img-placeholder.png"
+          alt="Project Image"
+        />
+
+        <p id="modal-description"></p>
+
+        <ul id="modal-lines-links" class="lines-links"></ul>
+        <div class="btn-group">
+          <a class="btn" id="live-btn" href="#">
+            See Live &nbsp;&nbsp;&nbsp;
+            <i class="fas fa-tv"></i>
+          </a>
+          <a class="btn" id="code-btn" href="#">
+            See Code
+            <i class="fab fa-github"></i>
+          </a>
+        </div>
+      </section>
+    </div>
+
+    <script src="js/dynamics.js"></script>
+    <script src="js/data.js"></script>
+    <script src="js/validations.js"></script>
   </body>
 </html>

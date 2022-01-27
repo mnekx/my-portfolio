@@ -1,3 +1,4 @@
+// Top Navigation behaviour
 const menuIcon = document.querySelector('#humberger_menu_icon');
 const menuList = document.querySelector('#humberger_menu_list');
 const closeMenuIcon = document.querySelector('#close-menu');
