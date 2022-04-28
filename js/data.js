@@ -1,49 +1,44 @@
 const projects = [
   {
     id: 'project1',
-    title: 'Special Tributes',
-    screenshot: './images/tribute.PNG',
-    description: 'A special tribute to a special man.',
-    technologies: [
-      'css', 'html', 'bootstrap', 'ruby',
-    ],
-    liveLink: 'https://mnekx.github.io/tribute-page/',
-    codeLink: 'https://github.com/mnekx/tribute-page',
+    title: 'To Do',
+    screenshot: './images/to-do.png',
+    description:
+      'A to-do app that keeps track of tasks until completed. Build with JavaScript.',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
+    liveLink: 'https://mnekx.github.io/to-do/dist/',
+    codeLink: 'https://github.com/mnekx/to-do',
   },
   {
     id: 'project2',
     title: 'Humburger Menu',
     screenshot: './images/humburger.PNG',
-    description: 'It is a navigation menu, animations and transitions done with CSS',
-    technologies: [
-      'css', 'html', 'bootstrap', 'ruby',
-    ],
+    description:
+      'It is a navigation menu, animations and transitions done with CSS',
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
     liveLink: 'https://mnekx.github.io/humbugger-menu/',
     codeLink: 'https://github.com/mnekx/humbugger-menu',
   },
   {
     id: 'project3',
-    title: 'Landing Page',
-    screenshot: './images/landing-page.PNG',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    technologies: [
-      'css', 'html', 'bootstrap', 'ruby',
-    ],
-    liveLink: 'https://mnekx.github.io/landing-page/',
-    codeLink: 'https://github.com/mnekx/landing-page',
+    title: 'Awesome Books',
+    screenshot: './images/awesome-books.png',
+    description:
+      "Keeps track of awesome books' titles and their authors.",
+    technologies: ['Javascript'],
+    liveLink: 'https://mnekx.github.io/awesome-books/',
+    codeLink: 'https://github.com/mnekx/awesome-books',
   },
   {
     id: 'project4',
     title: 'Survey Form',
     screenshot: './images/survey-form.PNG',
-    description: "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
-    technologies: [
-      'css', 'html', 'bootstrap', 'ruby',
-    ],
+    description:
+      "A daily selection of privately personalized reads; no accounts or sign-ups required. has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a standard dummy text.",
+    technologies: ['css', 'html', 'bootstrap', 'ruby'],
     liveLink: 'https://mnekx.github.io/survey-form/',
     codeLink: 'https://github.com/mnekx/survey-form',
   },
-
 ];
 
 // Cards being loaded dynamically
@@ -111,7 +106,9 @@ const projectbtnsArr = Array.from(openModalBtns);
 for (let j = 0; j < projectbtnsArr.length; j += 1) {
   projectbtnsArr[j].addEventListener('click', () => {
     modal.classList.add('show');
-    const clickedProject = projects.filter((project) => project.id === projectbtnsArr[j].id)[0];
+    const clickedProject = projects.filter(
+      (project) => project.id === projectbtnsArr[j].id,
+    )[0];
     const modalTitle = document.querySelector('#modal-title');
     const modalImage = document.querySelector('#modal-image');
     const modalDesc = document.querySelector('#modal-description');
