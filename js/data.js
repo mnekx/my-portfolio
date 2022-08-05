@@ -11,7 +11,7 @@ const projects = [
   },
   {
     id: 'project2',
-    title: 'Key and Vulnerable Population Patients Tracker',
+    title: 'KVP Tracker',
     screenshot: './images/kvp.png',
     description:
       'The app was used to collect and track data for more than 20 regions in Tanzania for the key and vulnerable population need with the National AIDS Control Program [NACP]. I designed both the front and back end using PHP, JavaScript, MySQL',
